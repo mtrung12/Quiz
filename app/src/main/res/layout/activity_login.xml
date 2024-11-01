@@ -33,6 +33,7 @@
             android:text="Please login to continue using the app" />
 
         <EditText
+            android:background="@color/colorETBgColor"
             android:id="@+id/etEmailAddress"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -54,6 +55,8 @@
             android:hint="Password"/>
 
         <Button
+            android:textColor="@color/white"
+            android:background="@drawable/btn_primary"
             android:id="@+id/button3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
