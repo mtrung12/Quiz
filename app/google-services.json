@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "275720277024",
+    "project_id": "hyperquiz-a4c7c",
+    "storage_bucket": "hyperquiz-a4c7c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275720277024:android:06c5e61735269783320045",
+        "android_client_info": {
+          "package_name": "com.example.quiz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBp7Dy4hX_ZcPlw7N_ftCwDgEZ6M4289H4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

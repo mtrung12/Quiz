@@ -16,13 +16,15 @@
         app:layout_constraintTop_toTopOf="parent" >
 
         <TextView
+            android:textColor="@color/dark_blue"
             style="@style/TextAppearance.AppCompat.Headline"
             android:id="@+id/textView7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Start the jouney" />
+            android:text="Start the journey" />
 
         <TextView
+            android:textColor="@color/dark_blue"
             style="@style/TextAppearance.AppCompat.Body1"
             android:id="@+id/textView8"
             android:layout_width="match_parent"
@@ -32,8 +34,9 @@
 
         <EditText
             android:id="@+id/etEmailAddress"
+            android:background="@color/colorETBgColor"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
             android:ems="10"
             android:inputType="textEmailAddress"
             android:layout_marginTop="32dp"
@@ -42,9 +45,10 @@
             />
 
         <EditText
+            android:background="@drawable/et_background"
             android:id="@+id/etPassword"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
             android:ems="10"
             android:layout_marginTop="16dp"
             android:inputType="textPassword"
@@ -52,9 +56,10 @@
             android:hint="Password"/>
 
         <EditText
+            android:background="@color/colorETBgColor"
             android:id="@+id/etConfirmPassword"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
             android:ems="10"
             android:layout_marginTop="16dp"
             android:inputType="textPassword"

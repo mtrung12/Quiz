@@ -10,4 +10,5 @@
     <color name="dark_blue">#FF0f0342</color>
     <color name = "colorETBgColor">#f2f5fa</color>
     <color name = "colorETBorderColor">#E9EBEF</color>
+    <color name="gray">#cac8cf</color>
 </resources>

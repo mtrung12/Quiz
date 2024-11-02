@@ -18,13 +18,15 @@
         app:layout_constraintTop_toTopOf="parent" >
 
         <TextView
-            style="@style/TextAppearance.AppCompat.Title"
+            style="@style/TextAppearance.AppCompat.Headline"
+            android:textColor="@color/dark_blue"
             android:id="@+id/textView7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Login Now" />
 
         <TextView
+            android:textColor="@color/dark_blue"
             style="@style/TextAppearance.AppCompat.Body1"
             android:id="@+id/textView8"
             android:layout_width="match_parent"
@@ -33,25 +35,26 @@
             android:text="Please login to continue using the app" />
 
         <EditText
-            android:background="@color/colorETBgColor"
+            android:background="@drawable/et_background"
             android:id="@+id/etEmailAddress"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
             android:ems="10"
             android:inputType="textEmailAddress"
             android:layout_marginTop="32dp"
             android:hint="Email"
-            android:textSize="16sp"
+            android:textSize="20sp"
             />
 
         <EditText
+            android:background="@drawable/et_background"
             android:id="@+id/etPassword"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
             android:ems="10"
             android:layout_marginTop="16dp"
             android:inputType="textPassword"
-            android:textSize="16sp"
+            android:textSize="20sp"
             android:hint="Password"/>
 
         <Button
